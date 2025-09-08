@@ -1,10 +1,10 @@
 # NodeJS REPL (READ, EVAL, PRINT, LOOP)
 NodeJS REPL (Read-Eval-Print Loop) is an interactive shell that allows you to execute JavaScript code line-by-line and see immediate results. This tool is extremely useful for quick testing, debugging, and learning, providing a sandbox where you can experiment with JavaScript code in a NodeJS environment. <br>
 
-- READ: You type some JavaScript code into the terminal, and REPL reads what you typed.
-- EVAL: REPL runs (evaluates) your code.
-- PRINT: REPL shows you the result of your code.
-- LOOP: REPL goes back to step 1, waiting for you to type more code.This loop continues until you quit REPL.
+- **READ:** You type some JavaScript code into the terminal, and REPL reads what you typed.
+- **EVAL:** REPL runs (evaluates) your code.
+- **PRINT:** REPL shows you the result of your code.
+- **LOOP:** REPL goes back to step 1, waiting for you to type more code.This loop continues until you quit REPL.
 
 ## Getting Started with REPL
 To start working with the REPL environment of NodeJS, follow one of these two methods:
