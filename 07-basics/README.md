@@ -1,12 +1,11 @@
 # NodeJS Basics
-NodeJS is a JavaScript runtime environment built on Chrome’s V8 JavaScript engine that allows developers to execute JavaScript code outside the browser. It can make console-based and web-based NodeJS applications.
+NodeJS is a **JavaScript runtime environment** built on Chrome’s V8 JavaScript engine that allows developers to execute JavaScript code outside the browser. It can make console-based and web-based NodeJS applications.
 
-Some of the features of the NodeJs are mentioned below:
-
-- Non-blocking I/O: NodeJS is asynchronous, enabling efficient handling of concurrent requests.
-- Event-driven architecture: Developers can create event-driven applications using callbacks and event emitters.
-- Extensive module ecosystem: npm (Node Package Manager) provides access to thousands of reusable packages.
-- Single-threaded Model: Node js runs on a single thread despite being asynchronous, it uses an event loop to handle requests.
+**Some of the features of the NodeJs are mentioned below:**
+- **Non-blocking I/O:** NodeJS is asynchronous, enabling efficient handling of concurrent requests.
+- **Event-driven architecture:** Developers can create event-driven applications using callbacks and event emitters.
+- **Extensive module ecosystem:** npm (Node Package Manager) provides access to thousands of reusable packages.
+- **Single-threaded Model:** Node js runs on a single thread despite being asynchronous, it uses an event loop to handle requests.
 
 ## Setting Up NodeJS
 To start using NodeJS, you’ll first need to install it on your system.
@@ -45,7 +44,7 @@ server.listen(3000, () => {
 });
 ```
 
-*Output:*
+**Output:**
 ```
 node app.js
 ```
@@ -56,17 +55,17 @@ Hello World!
 ```
 
 **In this example**
-- The http module is imported using require('http') to allow you to create an HTTP server.
-- http.createServer creates a new server that listens for incoming HTTP requests.
-- The callback function (req, res) handles requests and responses.
-- Inside the callback, res.write('Hello, World!') sends "Hello, World!" as a response, and res.end() ends the response.
-- server.listen(3000) starts the server on port 3000. Once the server is running, it logs "Server running on port 3000" to the console.
+- The `http` module is imported using `require('http')` to allow you to create an HTTP server.
+- `http.createServer` creates a new server that listens for incoming HTTP requests.
+- The callback function `(req, res)` handles requests and responses.
+- Inside the callback, `res.write('Hello, World!')` sends "**Hello, World!**" as a response, and `res.end()` ends the response.
+- `server.listen(3000)` starts the server on port 3000. Once the server is running, it logs "**Server running on port 3000**" to the console.
 
 ## NodeJS Architecture
-NodeJS follows a single-threaded event loop model that handles all client requests using a single thread. It is based on a non-blocking I/O model, meaning the server can process multiple requests without waiting for one task to complete before starting the next.
+NodeJS follows a **single-threaded event loop model** that handles all client requests using a single thread. It is based on a non-blocking I/O model, meaning the server can process multiple requests without waiting for one task to complete before starting the next.
 
-- Event Loop: The event loop processes tasks without blocking, allowing NodeJS to handle many requests concurrently on a single thread.
-- Asynchronous Execution: Non-blocking functions are used for tasks such as reading from the file system or querying databases. This ensures the application remains responsive.
+- **Event Loop:** The event loop processes tasks without blocking, allowing NodeJS to handle many requests concurrently on a single thread.
+- **Asynchronous Execution:** Non-blocking functions are used for tasks such as reading from the file system or querying databases. This ensures the application remains responsive.
 
 ## Basic NodeJS Concepts
 ### 1. Modules in NodeJS
