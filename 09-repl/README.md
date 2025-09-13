@@ -127,10 +127,10 @@ NaN
 (To exit, press ^C or type .exit)
 >
 ```
-- Note: using 'math' shows error as the library is referenced as 'Math' in NODE and not 'math'.
+- Note: using **'math'** shows error as the library is referenced as **'Math'** in NODE and not **'math'**.
 
 ### Using variables in REPL
-The keyword var is used to assign values to variables.
+The keyword `var` is used to assign values to variables.
 ```
 C:\Users\Parikshit\Desktop\GeeksForGeeks>node
 > var a = 4;
@@ -158,7 +158,7 @@ GeeksForGeeks
 undefined
 >
 ```
-- Note: Use ctrl - c to terminate the command and ctrl - c twice to terminate the NODE REPL.
+- Note: Use **ctrl - c** to terminate the command and **ctrl - c** twice to terminate the NODE REPL.
 
 ### .help is used to list out all the commands.
 ```
